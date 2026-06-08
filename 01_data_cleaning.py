@@ -10,9 +10,9 @@ import numpy as np
 import os
 import sys
 
-BASE_DIR    = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-INPUT_PATH  = os.path.join(BASE_DIR, "data", "FraudShield_Banking_Data.csv")
-OUTPUT_PATH = os.path.join(BASE_DIR, "data", "cleaned_data.csv")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+INPUT_PATH = os.path.join(BASE_DIR, "FraudShield_Banking_Data.csv")
+OUTPUT_PATH = os.path.join(BASE_DIR, "cleaned_data.csv")
 
 
 def log(msg): print(f"  {msg}")
